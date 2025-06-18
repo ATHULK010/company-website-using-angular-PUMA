@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg navbar-custom animated-navbar">
+  <div class="container-fluid">
+    
+    <a class="navbar-brand" href="#">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf6Dbt3tXhFSBXiEs66zNTgJqxCwnvG1N7Xg&s" 
+           alt="Logo" width="150" height="140" />
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/products">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/about">About Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  const links = document.querySelectorAll('.navbar-custom .nav-link');
+
+  links.forEach(link => {
+    link.addEventListener('click', function () {
+      links.forEach(l => l.classList.remove('active', 'disabled'));
+      this.classList.add('active');
+      links.forEach(l => {
+        if (!l.classList.contains('active')) {
+          l.classList.add('disabled');
+        }
+      });
+    });
+  });
+</script>
+

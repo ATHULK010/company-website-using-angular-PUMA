@@ -1,0 +1,94 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+ body {
+  font-family: 'Segoe UI', Verdana, Tahoma, sans-serif;
+  background-color: #ffffff;
+  color: #111;
+}
+
+
+    .arrival-section {
+      position: relative;
+      background: url('https://wallpaperaccess.com/full/384875.jpg') no-repeat center center/cover;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .arrival-content {
+      background-color: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(6px);
+      padding: 40px 30px;
+      border-radius: 16px;
+      max-width: 800px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .arrival-content h2 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+      color: #000;
+    }
+
+    .arrival-content p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #333;
+    }
+    .video-section {
+      padding: 50px 20px;
+      text-align: center;
+      background-color: #f8f8f8;
+    }
+
+    .video-section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .video-section video {
+      width: 80%;
+      max-width: 900px;
+      border-radius: 12px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .collab-section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .collab-section h2 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+    }
+
+    .collab-section p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #444;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 768px) {
+      .arrival-content h2 {
+        font-size: 1.8rem;
+      }
+      .video-section video {
+        width: 95%;
+      }
+    }
