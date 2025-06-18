@@ -2,58 +2,29 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.1.
 
-## Development server
 
-To start a local development server, run:
+# 🐾 PUMA Brand Website
 
-```bash
-ng serve
-```
+A dynamic and stylish website inspired by the global sports brand **PUMA**. This website showcases the brand's latest releases, collaborations, and heritage in an engaging and modern layout.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🌐 Website Overview
 
-## Code scaffolding
+### 1. 🏠 Home Page
+- Features a full-width **carousel** highlighting PUMA’s latest campaigns and releases.
+- **New Arrivals** section showcasing fresh product drops.
+- **ASAP Rocky x PUMA** partnership spotlight, highlighting fashion-meets-sport design elements.
+- **PUMA x Portugal** collaboration section that blends national pride with innovative design.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### 2. 🛍️ Products Page
+- A visual **carousel** at the top displaying featured product collections.
+- Three distinct product sections in **card layouts**:
+  - **Running** – Performance-focused gear for athletes.
+  - **Sneakers** – Lifestyle and street-style sneaker drops.
+  - **Football Boots** – Advanced cleats and football-specific gear.
 
-```bash
-ng generate component component-name
-```
+### 3. 🧾 About Us Page
+- **PUMA Announcements** presented in an easy-to-browse **card layout**, featuring press releases and updates.
+- A detailed section about the **History of PUMA**, exploring the brand’s legacy, innovation, and global impact.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 📁 Folder Structure
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
