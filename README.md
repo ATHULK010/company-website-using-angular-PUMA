@@ -26,5 +26,5 @@ A dynamic and stylish website inspired by the global sports brand **PUMA**. This
 - **PUMA Announcements** presented in an easy-to-browse **card layout**, featuring press releases and updates.
 - A detailed section about the **History of PUMA**, exploring the brand’s legacy, innovation, and global impact.
 
-## 📁 Folder Structure
+
 
